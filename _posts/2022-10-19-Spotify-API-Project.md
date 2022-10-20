@@ -17,7 +17,7 @@ Spotify has an amazing open API, that can be used for noncommercial and commerci
 
 To get access to the Spotify API, you just need a regular Spotify account. Then, log in [here](https://developer.spotify.com/dashboard/). You’ll need to register a new app, which isn’t as scary as it sounds (it’s all point and click). Click on this app from the dashboard to find three important pieces of information that you should save down. The Client ID and Client Secret are your API keys, found on the main page of the application. 
 
-![Dashboard Screenshot](https://github.com/jcieslewicz/stat386-projects/raw/main/assets/images/App_Dashboard_Screenshot.JPG)
+![Dashboard Screenshot](https://github.com/jcieslewicz/stat386-projects/raw/main/assets/images/App_Dashboard_Screenshot.jpg)
 
 Then, you’ll need a redirect URI. Go to Edit Settings -> Redirect URI, and add any valid URL. I recommend something local (unless you’re deploying a web app), like http://localhost:8080.  
 
