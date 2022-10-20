@@ -15,13 +15,21 @@ As a music enthusiast, I love Spotify’s recommender system. I can pick a song,
 
 Spotify has an amazing open API, that can be used for noncommercial and commercial purposes. You can read the full terms of service [here](https://developer.spotify.com/terms/) and the full documentation [here](https://developer.spotify.com/documentation/web-api/reference/#/).  
 
-To get access to the Spotify API, you just need a regular Spotify account. Then, log in [here](https://developer.spotify.com/dashboard/). You’ll need to register a new app, which isn’t as scary as it sounds (it’s all point and click). Click on this app from the dashboard to find three important pieces of information that you should save down. The Client ID and Client Secret are your API keys, found on the main page of the application. Then, you’ll need a redirect URI. Go to Edit Settings -> Redirect URI, and add any valid URL. I recommend something local (unless you’re deploying a web app), like http://localhost:8080.  
+To get access to the Spotify API, you just need a regular Spotify account. Then, log in [here](https://developer.spotify.com/dashboard/). You’ll need to register a new app, which isn’t as scary as it sounds (it’s all point and click). Click on this app from the dashboard to find three important pieces of information that you should save down. The Client ID and Client Secret are your API keys, found on the main page of the application. 
+
+![Dashboard Screenshot](/assets/images/App_Dashboard_Screenshot.jpg)
+
+Then, you’ll need a redirect URI. Go to Edit Settings -> Redirect URI, and add any valid URL. I recommend something local (unless you’re deploying a web app), like http://localhost:8080.  
+
+![Settings Screenshot](/assets/images/App_Settings_Screenshot.jpg)
 
 The last piece of information you’ll need is your Spotify username, which is accessible on the front page of your Spotify profile, whether online or in the app. I recommend saving these 4 pieces of information into a separate accessible python class, but you can decide the best way to secure and access them.
 
 ## Spotipy: Connecting to the API
 
 Like many popular open APIs, the Spotify API has an accompanying python wrapper package, Spotipy. Read the full documentation [here](https://spotipy.readthedocs.io/en/master/). This package is great because it has wrapper functions for just about every endpoint in the API.  
+
+![Python Logo](/assets/images/Spotify_Python.jpg)
 
 There are two ways to establish a connection to the API through Spotipy: Authorization Code and Client Credentials. As I understand it, the Authorization Code Flow is used for when you need to access user-specific information, while the Client Credentials Flow is used for server-to-server interactions. We’ll be using Authorization Code to access information from my personal library, which means we’ll also need to choose an appropriate scope (see the complete guide to scopes [here](https://developer.spotify.com/documentation/general/guides/authorization/scopes/).  
 
