@@ -25,4 +25,11 @@ The concordance between the features of my Spotify songs and overall trends in m
 
 The data and code related to the project can be found in my repo [here](https://github.com/jcieslewicz/SpotifyProject). Don’t forget to comment or ask questions!
 
-
+<script src="https://utteranc.es/client.js"
+        repo="jcieslewicz/stat386-projects" 
+        issue-term="pathname"
+        theme="github-dark"
+        label="comment"
+        crossorigin="anonymous"
+        async>
+</script>
