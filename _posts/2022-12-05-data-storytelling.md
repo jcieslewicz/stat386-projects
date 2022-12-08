@@ -24,12 +24,3 @@ When we look at the trends in various audio features over time, we can see a coh
 The concordance between the features of my Spotify songs and overall trends in my personal life show one example of how seemingly innocuous data can provide insights into surprisingly private details of people’s everyday lives. If I had more specific event data, I could track my mood at different times of day, different seasons of the year, or even in different people’s company. While this data could have uses for good in areas like mental health treatment, it also brings with it considerable privacy considerations. This should serve as yet another example of why as a data scientist you should always think about the people behind your data, and how your work could affect them in real life.
 
 The data and code related to the project can be found in my repo [here](https://github.com/jcieslewicz/SpotifyProject). Don’t forget to comment or ask questions!
-
-<script src="https://utteranc.es/client.js"
-        repo="jcieslewicz/stat386-projects" 
-        issue-term="pathname"
-        theme="github-dark"
-        label="comment"
-        crossorigin="anonymous"
-        async>
-</script>
