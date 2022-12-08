@@ -4,7 +4,7 @@ title:  "How Much Does Spotify Know About Me?"
 date:   2022-12-05
 author: Joseph Cieslewicz
 description: When analyzed creatively, data from your spotify library can tell very personal stories.
-image: /assets/images/SpotifyUser.jpg
+image: /assets/images/SpotifyUser.JPG
 ---
 
 ## Introduction and Overview
